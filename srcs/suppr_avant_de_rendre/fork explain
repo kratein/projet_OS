@@ -1,0 +1,13 @@
+p = fork();
+if (0 == p)
+{
+    // We're the child process
+}
+else if (p > 0)
+{
+    // We're the parent process
+}
+else
+{
+    // We're the parent process, but child couldn't be created
+}

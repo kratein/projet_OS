@@ -22,7 +22,7 @@ int main(int argc, char** argv)
 		tabPid[i]=pid;
 		if(tabPid[i]==0){
 			//ouvrir le fichier et lire la 1er ligne
-			//créer autant de thread que la valeur de la  1er ligne du fichier
+			//créer autant de thread que 1+ la valeur/100 de la  1er ligne du fichier
 			//on regarde la fonction voulu 
 			//chaque thread l'exécute et remonte le résultat à leur processus
 			//le processus effectue la fonction 
@@ -34,6 +34,6 @@ int main(int argc, char** argv)
 		}
 	}
 	sleep(1);
-	}
+}
 	exit(0);
 }
