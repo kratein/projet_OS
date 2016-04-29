@@ -1,8 +1,15 @@
 
 # projet_OS
 
-dans le main argv est le nombre d'argument argv 2 ,3 , 4 c'est les fichiers 
+Dans le dossier data on a le fichier texte contenant le resultat.
+Dans le dossier rapport on a le rapport.
+Dans le dossier srcs on a les fichiers sources du projet.
 
-srcs doit contenir les .c
-data doit contentir les resultats
-les dossier " fichier en vrac" contiendra les valeur a etudier avec l'executable en plus 
+1. Pour compiler le projet utilisez la cible compile du Makefile. L'exécutable est fabriqué dans projet_OS/.
+2. L'exécution doit être sous la forme :
+	./reduction fonction fichier1 fichier2 fichier3 ...
+
+fonction peut prendre les valeurs suivantes :
+	"min", "max", "avg", "sum", "odd"
+
+fichier1, fichier2, ... : sont les chemins relatifs de l'exécutable aux fichiers
